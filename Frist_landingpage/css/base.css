@@ -1,0 +1,27 @@
+:root {
+  --text-color_1: #0b132a;
+  --text-color_2: #4f5665;
+  --primary-color_1: #f53838;
+  --primary-color_2: rgba(245, 56, 56, 0.35);
+}
+html {
+    font-size: 16px;
+    /* line-height: 3px; */
+    background: #F6F6F6;
+    font-family: 'Rubik';
+    font-style: normal;
+}
+
+.grid{
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}
