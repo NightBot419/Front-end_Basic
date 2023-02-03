@@ -275,9 +275,7 @@
   font-weight: 400;
   margin-bottom: 10px;
 }
-/* .plan__buy-list-item + .plan__buy-list-item{
-    margin-bottom: 10px;
-} */
+
 .plan__buy-list-item-icon {
   margin-right: 20px;
 }
@@ -290,7 +288,8 @@
   /* margin: 0 auto 50px; */
 }
 .plan__buy-price {
-  margin: 50px auto 20px;
+  margin-bottom: 30px;
+  margin-top: auto;
 }
 .body {
   /* min-width: 1440px; */
