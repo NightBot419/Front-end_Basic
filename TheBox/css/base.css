@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+    --primary-color: #2947A9;
+    --font: 'Work Sans', sans-serif;
+}
+html{
+    font-size: 16px;
+    background-color: #fff;
+    font-family: var(--font);
+}
+.grid{
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+}

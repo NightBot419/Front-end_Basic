@@ -1,0 +1,51 @@
+
+.about {
+    padding: 74px 424px 202px 114px;
+    margin-top: 84px;
+    position: relative;
+}
+
+.about__frame {
+    z-index: 1;
+    position: absolute;
+    right: 6.33%;
+    top: 14.4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 40px;
+    padding-bottom: 60px;
+    padding-top: 50px;
+    min-height: 523px;
+    max-width: 488px;
+    background-color: #2947A9;
+    border-radius: 2px;
+}
+
+.about__frame-h3 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #fff;
+}
+
+.about__frame-p {
+    margin-top: 37px;
+    margin-bottom: 74px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+}
+
+.about__frame-btn {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2947A9;
+    padding: 16px 20px;
+    background-color: #fff;
+    border: 2px solid #2947A9;
+    border-radius: 6px;
+}

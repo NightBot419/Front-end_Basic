@@ -1,0 +1,40 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 112px 16.5px;
+}
+
+.nav__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo__icon {
+    margin-right: 14px;
+}
+
+.nav__logo__text {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+
+.nav__list__item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.nav__list__item:hover{
+    color: #F9995D;
+    cursor: pointer;
+}
