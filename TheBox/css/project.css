@@ -1,0 +1,115 @@
+.project {
+    display: flex;
+    justify-content: center;
+    gap:  0 254px;
+}
+
+.project__menu {
+    list-style: none;
+    margin-left: 112px;
+    /* gap: 20px 0; */
+}
+
+.project__menu--head {
+    font-weight: 700;
+    padding-top: 88px;
+    font-size: 36px;
+    margin-bottom: 40px;
+    line-height: 42px;
+    color: #292E3D;
+}
+
+.project__menu--body {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 28px;
+    color: #C2C7D6;
+    padding-left: 16px;
+    max-width: 151px;
+}
+.project__menu--body:hover{
+    color: #2947A9;
+    border-left: 4px solid;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    border-radius: 4px;
+}
+
+.project__info {
+    margin-top: 170px;
+}
+
+.project__info--menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+    align-items: center;
+
+
+}
+
+.project__info--menu__card {
+    margin-right: 32px;
+    margin-bottom: 32px;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #2947A9;
+}
+
+.project__info--menu__card--img {
+
+}
+
+.project__info--menu__card--nav {
+    /* display: flex; */
+    /* justify-content: space-between; */
+
+}
+
+.project__info--menu__card--nav-p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 12px 0 12px 12px;
+}
+
+.project__info--menu__card--nav-p1 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 0 0 16px 12px;
+}
+
+.project__info-nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -32px;
+}
+
+.project__info-nav--back, .project__info-nav--next {
+    padding: 21.5px 88px;
+    gap: 0 10px;
+}
+
+.project__info-nav--stt {
+    display: flex;
+    align-items: center;
+    gap: 0 16px;
+}
+
+.project__info-nav--stt--icon{
+    height: 16px;
+    width: 16px;
+    background-color: #F6F8F7;
+    
+    border-radius: 100vh;
+}
+/* .project__info-nav--stt--icon + .project__info-nav--stt--icon{
+    margin-right: 16px;
+} */
+.project__info-nav--stt--icon:hover{
+    background-color: #2947A9;
+}
+

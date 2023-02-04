@@ -23,14 +23,9 @@
     border-radius: 4px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
     padding: 20px 20px 40px;
     gap: 18px;
-}
-
-.reasons__info__info-icon {
-
 }
 
 .reasons__info__info-h3 {

@@ -1,0 +1,111 @@
+.cta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F8F7;
+}
+
+.cta__text{
+    text-align: center;
+}
+
+.cta__text--h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #292E3D;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.cta__text--p{
+    max-width: 539px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #292E3D;
+    margin-bottom: 38px;
+}
+
+.cta__input{
+
+}
+
+.cta__input--box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    /* gap: 25px; */
+    /* margin-right: 32px; */
+    gap: 32px;
+}
+
+.cta__input--box11{
+    position: relative;
+    margin-bottom: 20px;
+    /* margin-right: 32px; */
+}
+
+.cta__input--info1--text{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #A3AAC2;
+    padding: 10px 0 10px 8px;
+}
+
+.cta__input--info1--box{
+    padding: 10px 166px 10px 8px;
+    /* height: 280px; */
+    max-width: 280px;
+}
+
+.cta__input--info1--text{
+
+}
+
+.cta__input--mes{
+    position: relative;
+}
+
+.cta__input--mesbox{
+    padding: 10px 393px 107px 8px;
+    margin-bottom: 8px;
+}
+
+.cta__input--mesp{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #667299;
+    margin-bottom: 28px;
+}
+.cta__input--messer{
+    position: absolute;
+    left: 0;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #A3AAC2;
+}
+.cta__btn{
+    padding: 16px 103.5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 2px;
+    background-color: #2947A9;
+    margin-bottom: 61px;
+}
+.lll{
+    color: #C40303;
+}

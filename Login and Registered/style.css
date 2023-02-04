@@ -58,6 +58,7 @@ body
     transition: 0.5s;
     outline: none;
 }
+
 .container .form .inputBox span
 {
     position: absolute;
