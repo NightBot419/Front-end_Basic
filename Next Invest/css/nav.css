@@ -1,0 +1,55 @@
+.header{
+    background-image: url('../img/Hero.png');
+    height: 870px;
+}
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+    background-color: inherit;
+}
+
+
+nav .container .right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:0 24px;
+}
+
+nav .container .right ul {
+    display: flex;
+    align-items: center;
+    gap: 0 16px;
+    list-style: none;
+}
+
+nav .container .right ul  li{
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 0 4px;
+}
+
+.nav__login{
+    gap: 0 16px;
+    display: flex;
+    justify-items: center;
+}
+
+.btn.login__btn{
+    padding:16px, 40px, 14px, 40px;
+    color: #fff;
+    background-color: var(--color-primary);
+}
+
+.btn.reg__btn{
+    padding:16px, 40px, 14px, 40px;
+    color: var(--color-primary);
+    background-color: #fff;
+
+}

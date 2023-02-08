@@ -1,0 +1,11 @@
+.hero .container{
+    margin-top: 212px;
+    max-width: 770px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.hero .btn{
+    max-width: 270px;
+    text-align: center;
+}

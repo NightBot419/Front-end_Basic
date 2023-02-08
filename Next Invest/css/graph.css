@@ -1,0 +1,30 @@
+.graph .container{
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+}
+.graph{
+    display: flex;
+    align-items: center;
+    background-image: url('../img/Graph.png');
+    height: 700px;
+    margin-top: 160px;
+}
+.graph .container .graph__text{
+    max-width: 540px;
+}
+.graph .container .graph__text img{
+    margin-bottom: 40px;
+}
+.graph .container .graph__text h2{
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+.graph .container .graph__text p{
+    color: #999;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}

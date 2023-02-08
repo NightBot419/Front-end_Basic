@@ -1,0 +1,26 @@
+.cta .container{
+    display: flex;
+    align-items: center;
+    gap: 130px;
+}
+.cta{
+    height: 782px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.cta .container .cta__text{
+    max-width: 500px;
+}
+.cta .container .cta__text p{
+    margin-top: 24px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #999999;
+}
+.btn.cta__btn{
+    text-align: center;
+    max-width: 270px;
+}
