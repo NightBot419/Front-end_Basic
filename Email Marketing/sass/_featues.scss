@@ -1,0 +1,44 @@
+.featues{
+    margin: 216px auto 166px;
+    &__img{
+        position: relative;
+        margin-right: 85px;
+        &--bg{
+            position: absolute;
+            background-color: rgba(239, 231, 215, 0.8);
+            width: 502px;
+            height: 703px;
+            left: -39%;
+            bottom: -15%;
+            z-index: -1;
+        }
+    }
+    &__text{
+        h3{
+            min-width: 546px;
+            margin-bottom: 18px;
+            font-weight: 600;
+            font-size: 4rem;
+            line-height: 5rem;
+            color: #1E1E1E;
+        }
+        p{
+            margin-bottom: 28px;
+            max-width: 508px;
+        }
+        h6{
+            max-width: 416px;
+            margin-bottom: 51px;
+        }
+    }
+    &__btn{
+        padding: 17px 58px;
+        max-width: 208px;   
+        color: #fff;     
+    }
+}
+.featues .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

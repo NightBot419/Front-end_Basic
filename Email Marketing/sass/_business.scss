@@ -1,0 +1,31 @@
+.business{
+    background-image: url('../img/Business\ tools.png');
+    background-size: 100%;
+    height: 570px;
+    &__text{
+        padding: 137px 0 145px 0;
+        margin-left: 150px;
+        max-width: 583px;
+    }
+    div{
+        h2{
+            color: #fff;
+            max-width: 583px;
+            margin-bottom: 9px;
+        }
+        p.text-thirdary{
+            max-width: 364px;
+            margin-bottom: 41px;
+        }
+    }
+    &__btn{
+        display: flex;
+        align-items: center;
+        gap: 19px;
+        padding: 10px 25px;
+        background-color: var(--primary-color);
+        max-width: 236px;
+        color: #fff;
+        border-radius: 10px;
+    }
+}

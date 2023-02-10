@@ -1,0 +1,100 @@
+:root {
+  --primary-font: "Sora", sans-serif;
+  --primary-color: #00bd82;
+  --secondery-color: #545454;
+}
+html {
+  font-size: 62.5%;
+}
+h6,
+h5,
+h4,
+h3,
+h2,
+h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+h1 {
+  font-size: 5.2rem;
+  line-height: 6.2rem;
+  text-align: center;
+}
+.text {
+  &-primary {
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3.2rem;
+    background: linear-gradient(93.52deg, #e6ff4b 8.71%, #00bd82 98.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  &-secondary {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #1e1e1e;
+  }
+  &-thirdary {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #545454;
+  }
+  &-fourthary {
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 5rem;
+    color: #1E1E1E;
+  }
+  &-fivary{
+    font-weight: 600;
+    line-height: 6.3rem;
+    font-size: 5rem;
+    color: #1e1e1e;
+  }
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+ul {
+  list-style: none;
+}
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+body {
+  background-color: #fdf9f1;
+  font-family: var(--primary-font);
+  font-size: 1.6rem;
+}
+.container {
+  max-width: 1130px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.primary-btn {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 4.8rem;
+  color: #ffffff;
+  background: #00bd82;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.secondery-btn {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #ffffff;
+  background: #00bd82;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}

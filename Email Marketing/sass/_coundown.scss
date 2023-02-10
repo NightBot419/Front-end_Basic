@@ -1,0 +1,27 @@
+.coundown{
+    background-color: #e2f471;
+    margin: 358px 0 140px 0;
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__item{
+        padding: 69px 0 47px 0;
+        h3{
+            font-weight: 600;
+            font-size: 4.4rem;
+            line-height: 5.5rem;
+            text-align: center;
+            color: #1E1E1E;
+            margin-bottom: 22px;
+        }
+        p{
+            font-weight: 400;
+            font-size: 1.8rem;
+            line-height: 2.8rem;
+            text-align: center;
+            color: #4F4D49;
+        }
+    }
+}
