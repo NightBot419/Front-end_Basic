@@ -1,0 +1,30 @@
+.designer{
+    padding-top: 160px;
+    background-color: $primary-color;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #fff;
+    }
+        &__title{
+        font-weight: 400;
+        font-size: 7rem;
+        line-height: calc(76/70);
+        font-family: $primary-text;
+        margin-bottom: 30px;
+    }
+    &__content{
+        font-weight: 400;
+        font-size: 2.4rem;
+        line-height: calc(34/24);
+        color: #F8F3ED;
+        opacity: 0.7;
+        font-family: $secondary-text;
+        margin-bottom: 25px;
+        max-width: 616px;
+    }
+}
+.designer .container .designer__text a{
+    line-height: 3;
+}

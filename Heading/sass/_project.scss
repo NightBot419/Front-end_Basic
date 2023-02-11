@@ -1,0 +1,37 @@
+.project{
+    margin-top: 120px;
+    &__top{
+        margin-bottom: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__title{
+        font-weight: 400;
+        font-size: 7rem;
+        line-height: calc(76/70);
+        font-family: $primary-text;
+    }
+    &__bot{
+        background-image: url(../img/projectbg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 712px;
+        position: relative;
+    }
+    &__info{
+        font-weight: 500;
+        font-size: 5rem;
+        line-height: calc(62/50);
+    }
+}
+.project__bot .container{
+    font-family: $secondary-text;
+    color: #FFF;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 65px 0;
+    transform: translateY(225%);
+    font-family: $primary-text;
+}
