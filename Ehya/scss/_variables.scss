@@ -1,0 +1,55 @@
+$primary-text: 'DM Sans', sans-serif;
+$primary-color: #00A8DB;
+$title-color: #034D82;
+$gray: #90A3B4;
+$milk: #D3D6D8;
+$linear: linear-gradient(278.21deg,#005490 , #328BCB);
+h1{
+    font-weight: 700;
+    font-size: 6.4rem;
+    line-height: calc(76/64);
+    color: #FFFFFF;
+}
+h2{
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: calc(52/36);
+    letter-spacing: 0.3px;
+    color: #034D82;
+}
+p{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: calc(26/16);
+    color: inherit;
+}
+.text{
+    &--content{
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 2;
+        letter-spacing: 0.3px;
+        color: $gray;
+    }
+}
+.btn{
+    padding: 18px 35px;
+    display: inline-block;
+    color: $primary-color;
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: calc(21/16);
+    text-align: center;
+    border-radius: 4px;
+}
+.next{
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: calc(21/16);
+    text-align: center;
+}
